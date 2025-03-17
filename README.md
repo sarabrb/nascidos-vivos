@@ -1,3 +1,6 @@
+#### Fonte: o código pode rodar na sua máquina localmente e o dataset está disponível nesse [link aqui.](https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc/resource/61145247-d2bb-463a-befc-01dd5a86ff34?inner_span=True)
+<br>
+
 ### Nascidos Vivos - Janeiro a Agosto de 2024
 #### Análise Exploratória de Dados sobre os nascidos vivos de janeiro a agosto de 2024. Dataset disponibilizado pelo DataSUS.
 <br>
