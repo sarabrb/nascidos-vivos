@@ -1,29 +1,27 @@
 #### Fonte: o código pode rodar na sua máquina localmente e o dataset está disponível nesse [link aqui.](https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc/resource/61145247-d2bb-463a-befc-01dd5a86ff34?inner_span=True)
-<br>
+
+___
 
 ### Nascidos Vivos - Janeiro a Agosto de 2024
 #### Análise Exploratória de Dados sobre os nascidos vivos de janeiro a agosto de 2024. Dataset disponibilizado pelo DataSUS.
-<br>
 
+___
 
 ### Objetivo
 ##### O objetivo deste estudo é constatar algumas estatísticas básicas sobre os nascidos vivos no Brasil de janeiro a agosto de 2024, com base nos registros do DataSUS. Informações como idade dos pais, anomalias registradas, escolaridade e estado civil das mães, tipos de partos, semanas de gestação e número de consultas pré-natal e as relações que essas variáveis podem ter entre si.
-<br><br>
 
+___
 ### Estatística sobre a idade das mães:
 ##### A média é de 27 anos com um desvio padrão de 6 anos;
 ##### A idade mínima constatada na base de dados foi 8 anaos e a máxima de 99 anos, mas foram poucos registros e passei a contabilizar de 10 a 65 anos;
 ##### O primeiro quartil (Q1) conta que até 25% das mães possuem até 25 anos, o segundo quartial (Q2) informa que a mediana é de 27 anos e o terceiro quartil (Q3) revela que até 75% das mães possuem 33 anos.
 ![image](https://github.com/user-attachments/assets/b974d639-207f-4a09-aaa7-028dd41dd40a)
 
-<br>
-
 
 ### Outliers na coluna 'Idade da Mãe'
 ##### A base, que possui mais de um milhão de linhas, informa que há 305 outliers, representado 0.025% da base de dados.
-<br><br>
 
-
+___
 ### Estatística sobre a idade dos pais:
 ##### A idade média é de 32 anos, com um desvio padrão de 7 anos;
 ##### A idade mínima na base é de 9 anos e a máxima de 99 anos, mas novamente as considero outliers;
@@ -35,7 +33,8 @@
 
 ### Outliers na coluna 'Idade dos Pais'
 ##### A base contém 4401 registros de pais acima de 52 anos, o que é consideravelmente maior que o número de outliers na idade das mães, representando 1.11% do total.
-<br><br>
+
+___
 
 ### Há mais anomalias registradas em nascidos de pais ou mães de mais idade?
 ![image](https://github.com/user-attachments/assets/ccc4fb83-9245-4a3a-a120-31635d051430)
@@ -46,13 +45,14 @@
 ##### É possível observar que, até os 30 anos, tanto a idade dos pais quanto a das mães influenciam de forma semelhante na porcentagem de anomalias registradas. A partir dos 31 anos, a idade da mãe passa a ter um impacto maior, especialmente após os 40 anos. Por outro lado, a porcentagem de anomalias relacionada à idade dos pais se mantém praticamente constante, mesmo após os 60 anos, permanecendo em torno de 1.25%.
 
 
-<br><br>
+___
 ### Locais de nascimento e partos
 
 ![image](https://github.com/user-attachments/assets/1768cd5c-c781-494f-92ff-c7f0af9ee25a)
 <br>
 ##### A grande maioria dos partos tem sido realizada em hospitais, motivo pelo qual o gráfico está em escala logarítmica, o que indica que atualmente as pessoas têm mais acesso a hospitais em comparação com décadas passadas.
-<br><br>
+
+___
 
 ### Gestações normais e prematuras por tipo de parto
 <br>
@@ -68,7 +68,8 @@
 ##### O terceiro quartil (Q3) revela que 75% das mulheres que optam por ou necessitam de uma cesárea têm seus filhos entre 37 e 38 semanas de gestação, enquanto para partos vaginais, essa faixa é de 38 a 40 semanas.
 #### As semanas máximas informam que os 25% restantes das mulheres têm seus filhos entre 38 a 42 semanas em partos cesáreos, enquanto em partos naturais, a faixa se estende de 40 a 43 semanas.
 ##### Os outliers representam uma minoria, mas são mais frequentes em partos cesáreos.
-<br><br>
+
+___
 
 ### Escolaridade e estado civil das mães
 
@@ -106,7 +107,8 @@
 
 ##### Na faixa etária de 51 a 60 anos, a taxa de casadas permanece em torno de 58%, enquanto o número de divorciadas se mantém estável (cerca de 4%). As mães solteiras caem ainda mais para 15%, enquanto as uniões estáveis aumentam para 20%, representando um padrão de busca por estabilidade em relacionamentos mais tarde na vida.
 ##### A taxa de viúvez também aumenta com a idade, passando de 0,10% na faixa de 10-30 anos para 1,38% na faixa de 51-60 anos.
-<br><br>
+
+___
 
 ### O nível de escolaridade influencia na quantidade de consultas pré-natal?
 <br>
@@ -117,36 +119,41 @@
 ##### É possível observar que no grupo com maior escolaridade (12 anos ou mais de estudo), a maioria das gestantes realizou 7 ou mais consultas pré-natal, representando 88,6%.
 ##### Grupos com 8 a 11 anos e 4 a 7 anos de escolaridade também apresentam altas concentrações nessa faixa de consultas, mas em níveis menores quando comparados ao grupo com maior escolaridade.
 ##### No grupo com nenhuma escolaridade, o maior percentual está na faixa de 7 ou mais consultas (46,1%), uma redução de 47% em relação ao grupo com maior escolaridade. Além disso, esse grupo apresenta o maior percentual (16,4%) de gestantes realizando apenas 1 a 3 consultas, o que pode indicar possíveis barreiras, como falta de acesso a serviços de saúde ou desconhecimento da importância do acompanhamento pré-natal.
-<br><br><br>
+
+___
 
 ### Conclusões finais
 ##### A maioria das mães tem idades mais jovens, com uma concentração significativa de gestantes entre 24 e 33 anos. A partir dos 31 anos, a idade das mães passa a impactar mais a ocorrência de anomalias, especialmente após os 40 anos. As mães com idades mais avançadas têm uma maior chance de anomalias, o que é esperado devido ao aumento dos riscos biológicos associados à idade gestacional.
 
 ##### A idade dos pais também impacta as anomalias, embora de maneira mais constante. Os pais mais velhos (acima dos 50 anos) representam outliers, com uma alta concentração de idades que variam entre 52 a 85 anos, um fator que pode ser relevante em análises sobre saúde paterna.
-<br><br>
+
+___
 
 ### Partos e gestações
 ##### A maioria dos partos ocorre em hospitais, refletindo a melhora no acesso à saúde ao longo dos anos.
 ##### Os partos cesáreos acontecem um pouco mais cedo (37-38 semanas), enquanto os partos vaginais tendem a ocorrer entre 38-40 semanas. Isso reflete a tendência de antecipação de partos via cesárea por razões médicas ou logísticas.
 ##### A maioria dos partos ocorre dentro da janela de tempo saudável (37-40 semanas), mas ainda existe uma porcentagem considerável de partos prematuros (antes de 37 semanas), especialmente para partos cesáreos.
-<br><br>
+
+___
 
 ### Escolaridade
 ##### Existe uma alta incidência de mães com baixa escolaridade (menos de 7 anos de estudo) nas faixas etárias mais jovens. Esse dado pode indicar uma falta de acesso à educação ou, possivelmente, um ciclo intergeracional de baixo acesso à educação.
 ##### Mães com 12 ou mais anos de escolaridade tendem a realizar mais consultas pré-natal e têm melhores condições para acompanhar a gestação. A escolaridade tem uma relação direta com o número de consultas, indicando a importância do acesso à educação para o cuidado gestacional.
-<br><br>
+
+___
 
 ### Estado civil
 ##### Na faixa etária de 10 a 30 anos, há uma maior concentração de mães solteiras. Isso diminui conforme as mulheres envelhecem, com um aumento significativo no número de mães casadas ou em união estável a partir dos 31 anos.
 ##### A taxa de divórcios aumenta com a idade. Isso pode indicar mudanças nas dinâmicas de relacionamento ao longo do tempo, refletindo as escolhas pessoais e as mudanças nas expectativas de vida.
 ##### A viúvez também aumenta com a idade, especialmente após os 50 anos, o que é esperado devido ao avanço da idade.
-<br><br>
+
+___
 
 ### Consultas pré-natal e escolaridade
 ##### A relação entre escolaridade e número de consultas pré-natal é clara: mães com maior escolaridade têm mais acesso e realizam mais consultas. Isso pode ser uma indicação de que a educação contribui para a conscientização sobre a importância do acompanhamento pré-natal e o acesso ao sistema de saúde.
 ##### Mães com nenhuma escolaridade ou baixa escolaridade (até 7 anos) têm menos consultas, com um percentual maior de gestantes realizando apenas 1 a 3 consultas. Esse dado sugere que mães em situação de vulnerabilidade educacional podem ter dificuldades para acessar cuidados médicos adequados durante a gestação, o que pode ser agravado por fatores socioeconômicos.
 <br><br>
-
+___
 
 ### Final
 ##### Este projeto oferece uma análise básica dos fatores que influenciam a gestação e os resultados associados a diferentes faixas etárias, escolaridade e estado civil. A análise sugere que o aumento da escolaridade, o acesso à saúde e o casamento ou união estável podem ser fatores protetores para as mães, contribuindo para melhores resultados durante a gestação. Além disso, os dados destacam a importância de abordar as desigualdades educacionais e de saúde para melhorar o acesso ao cuidado pré-natal e reduzir as disparidades nas condições de saúde materna e infantil.
