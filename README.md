@@ -13,7 +13,7 @@ ___
 ___
 ### Estatística sobre a idade das mães:
 ##### A média é de 27 anos com um desvio padrão de 6 anos;
-##### A idade mínima constatada na base de dados foi 8 anaos e a máxima de 99 anos, mas foram poucos registros e passei a contabilizar de 10 a 65 anos;
+##### A idade mínima constatada na base de dados foi 8 anos e a máxima de 99 anos, mas foram poucos registros e passei a contabilizar de 10 a 65 anos;
 ##### O primeiro quartil (Q1) conta que até 25% das mães possuem até 25 anos, o segundo quartial (Q2) informa que a mediana é de 27 anos e o terceiro quartil (Q3) revela que até 75% das mães possuem 33 anos.
 ![image](https://github.com/user-attachments/assets/b974d639-207f-4a09-aaa7-028dd41dd40a)
 
