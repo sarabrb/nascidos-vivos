@@ -64,8 +64,8 @@ ___
 ![image](https://github.com/user-attachments/assets/ca20d7a7-b08f-4499-bbb0-f24cd424b355)
 <br>
 ##### As semanas mínimmas indicam que as mulheres têm partos prematuros, geralmente por volta de 35 semanas de gestação.
-##### A mediana dos dados mostra que, para partos cesáreos, a gestação ocorre por volta de 37 semanas, enquanto para partos vaginais, a mediana está em torno de 38 semanas.
-##### O terceiro quartil (Q3) revela que 75% das mulheres que optam por ou necessitam de uma cesárea têm seus filhos entre 37 e 38 semanas de gestação, enquanto para partos vaginais, essa faixa é de 38 a 40 semanas.
+##### A mediana dos dados mostra que, para partos cesáreos, a gestação ocorre por volta de 37 semanas, enquanto para partos comuns, a mediana está em torno de 38 semanas.
+##### O terceiro quartil (Q3) revela que 75% das mulheres que optam por ou necessitam de uma cesárea têm seus filhos entre 37 e 38 semanas de gestação, enquanto para partos comuns, essa faixa é de 38 a 40 semanas.
 #### As semanas máximas informam que os 25% restantes das mulheres têm seus filhos entre 38 a 42 semanas em partos cesáreos, enquanto em partos naturais, a faixa se estende de 40 a 43 semanas.
 ##### Os outliers representam uma minoria, mas são mais frequentes em partos cesáreos.
 
@@ -131,7 +131,7 @@ ___
 
 ### Partos e gestações
 ##### A maioria dos partos ocorre em hospitais, refletindo a melhora no acesso à saúde ao longo dos anos.
-##### Os partos cesáreos acontecem um pouco mais cedo (37-38 semanas), enquanto os partos vaginais tendem a ocorrer entre 38-40 semanas. Isso reflete a tendência de antecipação de partos via cesárea por razões médicas ou logísticas.
+##### Os partos cesáreos acontecem um pouco mais cedo (37-38 semanas), enquanto os partos comuns tendem a ocorrer entre 38-40 semanas. Isso reflete a tendência de antecipação de partos via cesárea por razões médicas ou logísticas.
 ##### A maioria dos partos ocorre dentro da janela de tempo saudável (37-40 semanas), mas ainda existe uma porcentagem considerável de partos prematuros (antes de 37 semanas), especialmente para partos cesáreos.
 
 ___
